@@ -1,3 +1,60 @@
+.serviceSection {
+	border: 1px solid black;
+	padding-left: 10px; padding-right: 10px;
+	margin-top: 2rem;
+}
+
+.serviceTitle {
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 6px;
+	width: fit-content;
+	padding: 15px;
+	margin:auto;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	background-color: #4397d0;
+	color: #ffffff;
+}
+
+.ui-block-a,
+.ui-block-b {
+	text-align: center;
+	padding: 10px;
+}
+
+.ui-block-b {
+	border-left: 1px solid black;
+}
+
+
+@media all and (max-width: 500px) {
+	.ui-grid-a .ui-block-a,
+	.ui-grid-a .ui-block-b {
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+	.ui-grid-a .ui-block-b {
+		border-left: #000000;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* For main title on all pages */
 .ui-title {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
