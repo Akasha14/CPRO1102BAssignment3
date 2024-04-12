@@ -37,8 +37,8 @@
                 <!-- Page links -->
                 <div data-role="navbar">
                     <ul>
+                        <li><a href="#petServices" data-icon="grid" class="ui-btn-active" data-theme="a">Pet Services</a></li>
                         <li><a href="#contactMe" data-icon="mail" class="ui-btn-active" data-theme="a">Contact Me</a></li>
-                        <li><a href="#jQueryPage" data-icon="star" data-theme="a">jQuery UI</a></li>
                     </ul>
                 </div>
 
@@ -171,6 +171,32 @@
 
         </div>
 
+        <!-- Pet Services -->
+        <div class="pg" data-role="page" id="petServices">
+
+            <header data-role="header">
+                <h1 style="padding-top: 20px; font-size: xx-large; text-align: center;">
+                    Pet Services
+                </h1>
+
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#blog" data-icon="home" data-theme="a">Back to Blog</a></li>
+                        <li><a href="#contactMe" data-icon="mail" class="ui-btn-active" data-theme="a">Contact Me</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <section class="ui-content" role="main">
+
+
+
+                
+                <a href="#blog" data-role="button" data-rel="back" data-theme="a">Back to Blog</a>
+            </section>
+            <footer data-role="footer"><h4>&copy; 2024</h4></footer>
+        </div>
+
         <!-- Contact Me Page -->
         <div class="pg" data-role="page" id="contactMe">
 
@@ -183,7 +209,7 @@
                 <div data-role="navbar">
                     <ul>
                         <li><a href="#blog" data-icon="home" data-theme="a">Back to Blog</a></li>
-                        <li><a href="#jQueryPage" data-icon="star" data-theme="a">jQuery UI</a></li>
+                        <li><a href="#petServices" data-icon="grid" class="ui-btn-active" data-theme="a">Pet Services</a></li>
                     </ul>
                 </div>
 
@@ -202,213 +228,5 @@
             <footer data-role="footer"><h4>&copy; 2024</h4></footer>
         </div>
 
-        <!-------Question 1-------------------------------------------------------------------------------->
-
-        <!-- jQuery UI Components Page -->
-        <div class="pg" data-role="page" id="jQueryPage">
-            <header data-role="header">
-
-                <h1 style="padding-top: 20px; font-size: x-large; text-align: center;">
-                    jQuery UI Components
-                </h1>
-
-                <div data-role="navbar">
-                    <ul>
-                        <li><a href="#blog" data-icon="home" data-theme="a">Back to Blog</a></li>
-                        <li><a href="#contactMe" data-icon="mail" class="ui-btn-active" data-theme="a">Contact Me</a></li>
-                    </ul>
-                </div>
-
-            </header>
-
-            <!-- jQuery Components -->
-            <section class="ui-content" role="main">
-
-                <center>
-                    <h1 class="jQTitle"><u>Interactions</u></h1>
-                </center>    
-
-                <!-- Draggable and Droppable -->
-                <section>
-                    <h2 style="text-align: center; padding-top: 1rem;">
-                        a/b) Draggable/Droppable
-                    </h2>
-
-                    <div id="draggableContainer">
-
-                      <div id="d1" class="draggableItem"><p>Throw Me Away!</p></div>
-                      <div id="d2" class="draggableItem"><p>Me <br> Too!</p></div>
-                      <div id="d3" class="draggableItem"><p>Me <br> Three!</p></div>
-
-                      <div class="dropZone"><img src="themes\images\TrashCan.jpg" alt="Garbage can" width="150px"></div>
-                    </div>    
-                </section>
-
-                <!-- Resizable -->
-                <section style="margin-top: 2rem;">
-
-                    <h2 class="effectTitle">c) Resizable</h2>
-
-                    <div id="resizable">
-                        <p>RESIZE ME! <br> (bottom right corner)</p>
-                    </div>
-                </section>
-
-                <!-- Selectable -->
-                <section style="margin-top: 2rem;">
-
-                    <h2 class="effectTitle">d) Selectable</h2>
-
-                    <div id="selectable-container">
-                        <ul id="selectable">
-                          <li class="ui-widget-content">Item 1</li>
-                          <li class="ui-widget-content">Item 2</li>
-                          <li class="ui-widget-content">Item 3</li>
-                          <li class="ui-widget-content">Item 4</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <hr class="customLine">
-
-                <center>
-                    <h1 class="jQTitle2"><u>Widgets</u></h1>
-                </center>  
-
-                <!-- Accordian -->
-                <section>
-
-                    <h2 style="text-align: center; padding-top: 1rem;">
-                        a) Accordian
-                    </h2>
-
-                    <div id="accordian">
-
-                        <h3>Tabby Cats</h3>
-                        <div class="accordionText">
-                          <p>Tabby cats are renowned for their charming and distinctive personalities. Typically characterized by their playful and affectionate nature, tabbies often form strong bonds with their human companions. They are known for being curious and adventurous, eagerly exploring their surroundings with a sense of curiosity and enthusiasm. Tabby cats are also often described as intelligent and social animals, enjoying interactive play and companionship. With their outgoing and sociable demeanor, tabbies can easily adapt to various environments, making them beloved members of many households. Additionally, their expressive eyes and endearing quirks contribute to their irresistible charm, making them cherished companions for cat lovers worldwide.</p>
-                        </div>
-
-                        <h3>American Bobtail</h3>
-                        <div class="accordionText">
-                          <p>American Bobtail cats are known for their appearance and charming personalities. These cats are often described as friendly, affectionate, and intelligent companions. With their playful nature, American Bobtails enjoy interactive games and are known for their agility and athleticism. Despite their wild appearance, they are gentle and make wonderful family pets, often forming strong bonds with their owners. American Bobtails are also known for their adaptability and social nature, getting along well with children and other pets. Their expressive eyes and unique vocalizations add to their allure, making them delightful additions to any household seeking a loyal and loving feline friend.</p>
-                        </div>
-
-                        <h3>Maine Coon</h3>
-                        <div class="accordionText">
-                          <p>Maine Coon cats are praised for their gentle and sociable personalities, earning them the nickname "gentle giants" of the cat world. These majestic felines are known for their friendly and affectionate nature, often forming strong bonds with their human companions. Maine Coons are typically sociable and outgoing, enjoying the company of both people and other pets. Despite their large size, they are gentle and docile, making them excellent family pets. Maine Coons are also intelligent and curious, often displaying playful behaviors well into adulthood. With their friendly demeanor, striking appearance, and loving disposition, Maine Coon cats make beloved additions to households seeking a loyal and affectionate companion.</p>
-                        </div>
-                      </div>
-                </section>
-
-                <!-- Autocomplete -->
-                <section style="margin-top: 2rem;">
-
-                    <h2 class="effectTitle">b) Autocomplete</h2>
-
-                    <div>
-                        <label for="search">Search:</label>
-                        <input type="text" id="search">
-                    </div>
-                    
-                </section>
-
-                <!-- Datepicker -->
-                <section style="margin-top: 2rem;">
-
-                    <h2 class="effectTitle">c) Datepicker</h2>
-
-                    <input type="text" id="dateSelector">
-                    
-                </section>
-
-                <!-- Slider -->
-                <section style="margin-top: 2rem;">
-
-                    <h2 class="effectTitle">d) Slider</h2>
-
-                    <div id="slider"></div>
-                    
-                </section>
-
-                <hr class="customLine">
-
-                <center>
-                    <h1 class="jQTitle2"><u>Effects</u></h1>
-                </center>  
-
-                <!-- Show/Hide -->
-                <section>
-
-                    <h2 style="text-align: center; padding-top: 1rem;">
-                        a) Show/Hide
-                    </h2>
-
-                    <center>
-                        <div id="showHideArea"><img src="themes\images\cat1-150x100.jpg" alt="Orange Cat" width="150px" height="100px"></div>
-                    </center>
-
-                    <div id="btnContainer">
-                        <button id="btnHide">Hide</button>
-                        <button id="btnShow">Show</button>
-                    </div>
-                </section>
-
-                <!-- Explode -->
-                <section>
-
-                    <h2 class="effectTitle">
-                        b) Explode
-                    </h2>
-
-                    <center>
-                        <div id="explodeArea"><img src="themes\images\cat2-200x125.jpg" alt="Cool Cat" width="200px" height="125px"></div>
-                    </center>
-
-                    <div id="btnContainer">
-                        <button id="btnExplode">Explode!</button>
-                        <button id="btnExplodeReset">Reset</button>
-                    </div>
-                </section>
-
-                <!-- Fade In/Out -->
-                <section>
-
-                    <h2 class="effectTitle">
-                        c) Fade In/Out
-                    </h2>
-
-                    <center>
-                        <div id="fadeArea"><img src="themes\images\cat3-160x100.jpg" alt="Cute Cat" width="200px" height="125px"></div>
-                    </center>
-
-                    <div id="btnContainer">
-                        <button id="btnFadeOut">Fade Out</button>
-                        <button id="btnFadeIn">Fade In</button>
-                    </div>
-                </section>
-
-                <!-- Color Animation -->
-                <section style="margin-bottom: 4rem;">
-
-                    <h2 class="effectTitle">
-                        d) Color Animation
-                    </h2>
-
-                    <center>
-                        <div id="colorChangeArea"></div>
-                    </center>
-
-                    <div id="btnContainer">
-                        <button id="btnColorChange">Change Color!</button>
-                        <button id="btnOgColor">Back to Original</button>
-                    </div>
-                </section>
-
-                <a href="#blog" data-role="button" data-rel="back" data-theme="a">Back to Blog</a>
-
-                <footer data-role="footer"><h4>&copy; 2024</h4></footer>
-            </section>
-        </div>
     </body>
 </html>
