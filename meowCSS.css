@@ -1,0 +1,155 @@
+/* For main title on all pages */
+.ui-title {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	display: block !important;
+	overflow: visible !important;
+	white-space: normal !important;
+}
+
+/* For individual component titles */
+.effectTitle {
+	text-align: center;
+	border-top: 2px solid;
+	padding-top: 2rem;
+}
+
+/* For animated, main component type titles */
+.jQTitle {
+	border: 1px solid;
+	border-radius: 10px;
+	width: fit-content;
+	padding: 1rem;
+	animation: colorchange 7s infinite; /* Color animation */
+}
+
+/* Same as previous, different margins */
+.jQTitle2 {
+	border: 1px solid;
+	border-radius: 10px;
+	width: fit-content;
+	padding: 1rem;
+	margin-top: 4rem;
+	animation: colorchange 7s infinite; /* Color animation */
+}
+
+/* For custom horizontal line */
+.customLine {
+	margin-top: 2rem;
+	border-color: #3386cb;
+	border-width: 15px;
+}
+
+/* Color animation */
+@keyframes colorchange {
+	0%   {background-color: #3386cb;}
+	25%  {background-color: rgb(218, 218, 105);}
+	50%  {background-color: rgb(196, 86, 86)}
+	75%  {background-color: rgb(87, 177, 87);}
+	100% {background-color: #3386cb;}
+}
+
+/* Draggable/Droppable CSS */
+#draggableContainer {
+	width: fit-content;
+	height: fit-content;
+	border: 3px solid;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+#draggableContainer > div {
+	width: 100px;
+	height: 100px;
+	border: 2px solid #7d7272;
+	background-color: white;
+	text-align: center;
+	line-height: 80px;
+	margin: 7px;
+	cursor: pointer;
+}
+
+#draggableContainer > div > p {
+	line-height: 25px;
+}
+
+#draggableContainer > .dropZone {
+	width: 150px;
+	height: 150px;
+	border: 2px dashed #7d7272;
+	background-color: white;
+}
+
+/* Resizable CSS */
+#resizable { 
+	width: 150px; 
+	height: 75px; 
+	border: 2px dashed;
+	margin: auto;
+	margin-bottom: 4rem;
+	padding: 10px;
+	text-align: center;
+}
+
+/* Selectable CSS */
+#selectable .ui-selecting { 
+	 background: #87bef1; /* Color while clicking */
+}
+
+#selectable .ui-selected { 
+	background: #3386cb; /* Color when clicked */
+	color: white; 
+}
+
+#selectable { 
+	list-style-type: none; /* Get rid of list dots */
+	margin: auto;
+	width: 35%; 
+}
+
+#selectable li { 
+	border: 2px solid #7d7272;
+	margin-bottom: 15px;
+	padding: 15px; 
+	text-align: center;
+	cursor: pointer;
+}
+
+/* Accordian CSS */
+.accordionText {
+    height: 200px;
+}
+
+/* Keeps explode area centered */
+#explodeArea {
+    position: relative;
+    display: inline-block;
+}
+
+/* For color changing area */
+#colorChangeArea {
+	width: 200px;
+	height: 100px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+/* To keep buttons small */
+#btnHide,
+#btnShow,
+#btnExplode,
+#btnExplodeReset,
+#btnFadeIn,
+#btnFadeOut,
+#btnColorChange,
+#btnOgColor {
+	width: fit-content;
+}
+
+/* For centering multiple buttons */
+#btnContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}

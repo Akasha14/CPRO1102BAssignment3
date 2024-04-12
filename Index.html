@@ -1,4 +1,414 @@
+<!-------Question 2 First------->
 <!DOCTYPE html>
 <html>
-    
+
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Meown</title>
+        
+        <!-- Themeroller used for css -->
+        <link rel="stylesheet" href="themes/blueTheme.min.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+
+        <!-- jQuery Version, UI, JS, and CSS -->
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"/>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+
+        <!-- My imported files **All of my JavaScript and most of my CSS** -->
+        <script src="meowJS.js"></script>
+        <link rel="stylesheet" href="meowCSS.css"/>
+    </head>
+
+    <body>
+        <!-- Blog Page -->
+        <div class="pg" data-role="page" id="blog">
+
+            <header data-role="header">
+
+                <h1 style="padding-top: 20px; font-size: xx-large; text-align: center;">
+                    Meown
+                </h1>
+                <!-- Page links -->
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#contactMe" data-icon="mail" class="ui-btn-active" data-theme="a">Contact Me</a></li>
+                        <li><a href="#jQueryPage" data-icon="star" data-theme="a">jQuery UI</a></li>
+                    </ul>
+                </div>
+
+            </header>
+
+            <section class="ui-content" role="main">
+
+                <!-- Do Cats Know Their Names? -->
+                <h2>i. Do Cats Know Their Name?</h2>
+                <p>According to experts, cats can recognize and respond to the names we lovingly gave them—but they don’t always choose to respond. If it seems like your cat readily responds to your voice but ignores your roommate, you might be on to something. 
+                    Cats can identify and remember unique vocal patterns, Manucy says. “This means that a cat may respond to a favored family member better than to a less familiar guest,” she explains. According to Manucy, one way to teach a cat or kitten their name is to associate it with positive experiences, 
+                    such as by saying their name before giving them a treat, toy, or attention.
+                    Clicker-training cats can also be effective, especially in households with multiple cats or kittens. The key is to help your cat understand that their name has significance, and when they hear it, it means we’re seeking their attention.
+                </p>
+
+                <h3><u>Key takeaways</u>:</h3>
+
+                <ul style="line-height: 35px;">
+                    <li>Cats do recognize their own names (as long as the name is tied to positive reinforcement).</li>
+                    <li>Cats can also identify and remember vocal patterns.</li>
+                    <li>Clicker-training can help cats to understand their name and associate it with a positive experience (treats, toys, attention).</li>
+                </ul>
+
+                <h3>Sources:</h3>
+                <p><cite>Janelle Leeson, PetMD, Do Cats Know Their Names?--</cite>
+                    <a href="https://www.petmd.com/cat/behavior/do-cats-know-their-names">Travel to Page</a>
+                </p>
+
+                <!-- Tips to Raise a Healthy Cat -->
+                <h2 style="margin-top: 3rem;">
+                    ii. Essential Tips to Raise a Healthy Cat
+                </h2>
+
+                <p>
+                    As many adopters will tell you, it’s often a question of who saved whom, as these grateful animals bring us so much joy. If you’re considering adopting a kitten or cat, you obviously want your feline friend to be around for as long as possible. 
+                    Thankfully, there are plenty of things you can do when it comes to cat wellness to keep your pet happy and healthy for a long time. Here is some relatively easy and practical ways to raise a healthy cat.
+                </p>
+
+                <ol style="line-height: 35px;">
+                    <li>Pay Attention To Diet And Thirst</li>
+                    <li>Give Your Cat A Safe Space</li>
+                    <li>Enrich Your Cat’s Environment</li>
+                    <li>Make Your Vet Visit A Priority</li>
+                    <li>Brush Your Cat Often</li>
+                    <li>Spay Or Neuter Your Cat</li>
+                </ol>
+
+                <p>
+                    These tips will help ensure a long, happy life for your cat.
+                </p>
+
+                <h3>Sources:</h3>
+                <p><cite>Valley West Veterinary Hospital. Resource Articles ©2024 GeniusVets, 7 Tips For Raising A Healthy Cat In Honor Of National Adopt A Cat Month--</cite>
+                    <a href="https://www.valleywestvets.com/services/cats/blog/7-tips-raising-healthy-cat-honor-national-adopt-cat-month">Travel to Page</a>
+                </p>
+
+                <!-- Why does my cat attack me? -->
+                <h2 style="margin-top: 3rem;">
+                    iii. Why does my cat attack me?
+                </h2>
+
+                <p>
+                    Cats are hunters—that’s a fact. Stalking, pouncing, biting, and even bunny kicking are normal ways cats interact with their world, exercising their brains and bodies and releasing pent-up energy. 
+                    However, when you become the target of the attack, it’s understandable to feel a mix of surprise, uncertainty, and perhaps frustration as your companion goes from cuddly to aggressive. 
+                    Why do cats attack out of nowhere? Boredom and fear are two common culprits, says Joey Lusvardi, certified cat behaviorist and owner of Class Act Cats, a Minneapolis-based cat behavior consulting and training service. 
+                    “The best thing you can do is to have regular interactive play sessions with your cat,” he says, adding that discipline tactics, such as spraying your cat with water, only increase unwanted behaviors. Here’s what to do 
+                    when your cat attacks you and how to tell the difference between normal play and something more sinister.
+                </p>
+
+                <h3><u>
+                    Is My Cat Playing or Aggressive?
+                </u></h3>    
+
+                <p>
+                    Sometimes, it can be difficult to tell the difference between cats playing or aggression. While play tends to be fairly quiet, your cat is most likely attacking out of fear or overstimulation if they exhibit any of these behaviors:
+                </p>
+
+                <ul style="line-height: 25px;">
+                    <li>Aggressive vocalizations, such as hissing, growling, or spitting</li>
+                    <li>An arched back, typically with raised hair</li>
+                    <li>Ears pinned back</li>
+                    <li>Dilated pupils</li>
+                    <li>Tense body position with legs or tail tucked</li>
+                </ul>
+
+                <h3><u>
+                    Is My Cat Attacking Me Because They’re Overstimulated?
+                </u></h3>    
+
+                <p>
+                    Overstimulation or petting reactivity is common in cats. Like us, cats can experience a sensory overload from too much excitement or stimuli. Cats can become overstimulated on a dime and react aggressively from too much petting, play, or noise. 
+                    When cats are reaching their limit, they’ll likely communicate through body language cues such as outward-turned ears, tail flicking, skin rippling, and quick head turns. When overlooked, these subtle signs can quickly turn into an attack.
+                    The level of stimulation that triggers overstimulation varies from cat to cat. Adult cats may be more susceptible than kittens, and some cats have lower thresholds regardless of age. Cats with anxiety or those with medical conditions causing tactile sensitivity may be more prone to overstimulation. 
+                    To prevent overstimulation, allow your cat to initiate interactions and do your best to learn their body language cues. For instance, pet your cat a few times, then remove your hand and wait for them to indicate they want you to continue. If they walk away or avoid your hand, they’ve had enough pets for now. 
+                    Cats also benefit from having a safe, quiet room to retreat to when the household is bustling or noisy.
+                </p>
+
+                <h3>Sources:</h3>
+                <p><cite>Janelle Leeson, The Dog People, Why Cats Attack & How To Handle An Aggressive Kitty--</cite>
+                    <a href="https://www.rover.com/blog/aggressive-cat-attack/#:~:text=Cats%20aren%27t%20just%20fierce,perceive%20them%20as%20potential%20threats.">Travel to Page</a>
+                </p>
+
+                <!-- How to Throw a Birthday Party for Your Cat -->
+                <h2 style="margin-top: 3rem;">
+                    iv. How to Throw a Birthday Party for Your Cat
+                </h2>
+
+                <p>
+                    Everyone loves a party and what better excuse to throw one than in celebration of your cat? Cats make our lives better in so many ways and a cat birthday party is a chance to thank them for keeping us on our toes, keeping us warm, and keeping us laughing. 
+                    Cat birthday parties are a thing, folks, and you aren’t the only one considering throwing one–there are over 85.5k #catbirthday posts on Instagram alone!If you’d like to celebrate your cat on her special day, here are some tips on throwing an epic, kitty-friendly, cat birthday party.
+                </p>
+
+                <ol style="line-height: 25px;">
+                    <li>Consider your cat’s needs (# of people, cat outfit, etc.)</li>
+                    <li>Pick a theme (avoid balloons)</li>
+                    <li>Get supplies</li>
+                    <li>Let them eat (cat birthday) cake!</li>
+                    <li>Plan activities</li>
+                    <li>Prepare some cat swag bags</li>
+                    <li>Unwind with your kitty</li>
+                </ol>
+
+                <h3>Sources:</h3>
+                <p><cite>Rover Staff, The Dog People, How to Throw a Great Cat Birthday Party: A Step by Step Guide--</cite>
+                    <a href="https://www.rover.com/blog/how-to-throw-a-great-cat-birthday-party-a-step-by-step-guide/">Travel to Page</a>
+                </p>
+
+            </section>
+            <footer data-role="footer"><h4>&copy; 2024</h4></footer>
+
+        </div>
+
+        <!-- Contact Me Page -->
+        <div class="pg" data-role="page" id="contactMe">
+
+            <header data-role="header">
+
+                <h1 style="padding-top: 20px; font-size: xx-large; text-align: center;">
+                    Contact Me
+                </h1>
+
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#blog" data-icon="home" data-theme="a">Back to Blog</a></li>
+                        <li><a href="#jQueryPage" data-icon="star" data-theme="a">jQuery UI</a></li>
+                    </ul>
+                </div>
+
+            </header>
+
+            <section class="ui-content" role="main">
+
+                <h4>If you have any feedback, questions, or concerns, feel free to contact me using any of the following:</h4>
+                <ul style="line-height: 70px;">
+                    <li><u>Cellphone</u>: 403-555-1234</li>
+                    <li><u>Email</u>: kittycat2000@gmail.com</li>
+                    <li><u>Mailing Address</u>: 1234 Elm Street, Edmonton, Canada, Postal Code: 12345</li>
+                </ul>
+                <a href="#blog" data-role="button" data-rel="back" data-theme="a">Back to Blog</a>
+            </section>
+            <footer data-role="footer"><h4>&copy; 2024</h4></footer>
+        </div>
+
+        <!-------Question 1-------------------------------------------------------------------------------->
+
+        <!-- jQuery UI Components Page -->
+        <div class="pg" data-role="page" id="jQueryPage">
+            <header data-role="header">
+
+                <h1 style="padding-top: 20px; font-size: x-large; text-align: center;">
+                    jQuery UI Components
+                </h1>
+
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#blog" data-icon="home" data-theme="a">Back to Blog</a></li>
+                        <li><a href="#contactMe" data-icon="mail" class="ui-btn-active" data-theme="a">Contact Me</a></li>
+                    </ul>
+                </div>
+
+            </header>
+
+            <!-- jQuery Components -->
+            <section class="ui-content" role="main">
+
+                <center>
+                    <h1 class="jQTitle"><u>Interactions</u></h1>
+                </center>    
+
+                <!-- Draggable and Droppable -->
+                <section>
+                    <h2 style="text-align: center; padding-top: 1rem;">
+                        a/b) Draggable/Droppable
+                    </h2>
+
+                    <div id="draggableContainer">
+
+                      <div id="d1" class="draggableItem"><p>Throw Me Away!</p></div>
+                      <div id="d2" class="draggableItem"><p>Me <br> Too!</p></div>
+                      <div id="d3" class="draggableItem"><p>Me <br> Three!</p></div>
+
+                      <div class="dropZone"><img src="themes\images\TrashCan.jpg" alt="Garbage can" width="150px"></div>
+                    </div>    
+                </section>
+
+                <!-- Resizable -->
+                <section style="margin-top: 2rem;">
+
+                    <h2 class="effectTitle">c) Resizable</h2>
+
+                    <div id="resizable">
+                        <p>RESIZE ME! <br> (bottom right corner)</p>
+                    </div>
+                </section>
+
+                <!-- Selectable -->
+                <section style="margin-top: 2rem;">
+
+                    <h2 class="effectTitle">d) Selectable</h2>
+
+                    <div id="selectable-container">
+                        <ul id="selectable">
+                          <li class="ui-widget-content">Item 1</li>
+                          <li class="ui-widget-content">Item 2</li>
+                          <li class="ui-widget-content">Item 3</li>
+                          <li class="ui-widget-content">Item 4</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <hr class="customLine">
+
+                <center>
+                    <h1 class="jQTitle2"><u>Widgets</u></h1>
+                </center>  
+
+                <!-- Accordian -->
+                <section>
+
+                    <h2 style="text-align: center; padding-top: 1rem;">
+                        a) Accordian
+                    </h2>
+
+                    <div id="accordian">
+
+                        <h3>Tabby Cats</h3>
+                        <div class="accordionText">
+                          <p>Tabby cats are renowned for their charming and distinctive personalities. Typically characterized by their playful and affectionate nature, tabbies often form strong bonds with their human companions. They are known for being curious and adventurous, eagerly exploring their surroundings with a sense of curiosity and enthusiasm. Tabby cats are also often described as intelligent and social animals, enjoying interactive play and companionship. With their outgoing and sociable demeanor, tabbies can easily adapt to various environments, making them beloved members of many households. Additionally, their expressive eyes and endearing quirks contribute to their irresistible charm, making them cherished companions for cat lovers worldwide.</p>
+                        </div>
+
+                        <h3>American Bobtail</h3>
+                        <div class="accordionText">
+                          <p>American Bobtail cats are known for their appearance and charming personalities. These cats are often described as friendly, affectionate, and intelligent companions. With their playful nature, American Bobtails enjoy interactive games and are known for their agility and athleticism. Despite their wild appearance, they are gentle and make wonderful family pets, often forming strong bonds with their owners. American Bobtails are also known for their adaptability and social nature, getting along well with children and other pets. Their expressive eyes and unique vocalizations add to their allure, making them delightful additions to any household seeking a loyal and loving feline friend.</p>
+                        </div>
+
+                        <h3>Maine Coon</h3>
+                        <div class="accordionText">
+                          <p>Maine Coon cats are praised for their gentle and sociable personalities, earning them the nickname "gentle giants" of the cat world. These majestic felines are known for their friendly and affectionate nature, often forming strong bonds with their human companions. Maine Coons are typically sociable and outgoing, enjoying the company of both people and other pets. Despite their large size, they are gentle and docile, making them excellent family pets. Maine Coons are also intelligent and curious, often displaying playful behaviors well into adulthood. With their friendly demeanor, striking appearance, and loving disposition, Maine Coon cats make beloved additions to households seeking a loyal and affectionate companion.</p>
+                        </div>
+                      </div>
+                </section>
+
+                <!-- Autocomplete -->
+                <section style="margin-top: 2rem;">
+
+                    <h2 class="effectTitle">b) Autocomplete</h2>
+
+                    <div>
+                        <label for="search">Search:</label>
+                        <input type="text" id="search">
+                    </div>
+                    
+                </section>
+
+                <!-- Datepicker -->
+                <section style="margin-top: 2rem;">
+
+                    <h2 class="effectTitle">c) Datepicker</h2>
+
+                    <input type="text" id="dateSelector">
+                    
+                </section>
+
+                <!-- Slider -->
+                <section style="margin-top: 2rem;">
+
+                    <h2 class="effectTitle">d) Slider</h2>
+
+                    <div id="slider"></div>
+                    
+                </section>
+
+                <hr class="customLine">
+
+                <center>
+                    <h1 class="jQTitle2"><u>Effects</u></h1>
+                </center>  
+
+                <!-- Show/Hide -->
+                <section>
+
+                    <h2 style="text-align: center; padding-top: 1rem;">
+                        a) Show/Hide
+                    </h2>
+
+                    <center>
+                        <div id="showHideArea"><img src="themes\images\cat1-150x100.jpg" alt="Orange Cat" width="150px" height="100px"></div>
+                    </center>
+
+                    <div id="btnContainer">
+                        <button id="btnHide">Hide</button>
+                        <button id="btnShow">Show</button>
+                    </div>
+                </section>
+
+                <!-- Explode -->
+                <section>
+
+                    <h2 class="effectTitle">
+                        b) Explode
+                    </h2>
+
+                    <center>
+                        <div id="explodeArea"><img src="themes\images\cat2-200x125.jpg" alt="Cool Cat" width="200px" height="125px"></div>
+                    </center>
+
+                    <div id="btnContainer">
+                        <button id="btnExplode">Explode!</button>
+                        <button id="btnExplodeReset">Reset</button>
+                    </div>
+                </section>
+
+                <!-- Fade In/Out -->
+                <section>
+
+                    <h2 class="effectTitle">
+                        c) Fade In/Out
+                    </h2>
+
+                    <center>
+                        <div id="fadeArea"><img src="themes\images\cat3-160x100.jpg" alt="Cute Cat" width="200px" height="125px"></div>
+                    </center>
+
+                    <div id="btnContainer">
+                        <button id="btnFadeOut">Fade Out</button>
+                        <button id="btnFadeIn">Fade In</button>
+                    </div>
+                </section>
+
+                <!-- Color Animation -->
+                <section style="margin-bottom: 4rem;">
+
+                    <h2 class="effectTitle">
+                        d) Color Animation
+                    </h2>
+
+                    <center>
+                        <div id="colorChangeArea"></div>
+                    </center>
+
+                    <div id="btnContainer">
+                        <button id="btnColorChange">Change Color!</button>
+                        <button id="btnOgColor">Back to Original</button>
+                    </div>
+                </section>
+
+                <a href="#blog" data-role="button" data-rel="back" data-theme="a">Back to Blog</a>
+
+                <footer data-role="footer"><h4>&copy; 2024</h4></footer>
+            </section>
+        </div>
+    </body>
 </html>
