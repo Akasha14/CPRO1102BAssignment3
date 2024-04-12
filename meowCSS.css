@@ -7,6 +7,7 @@
 
 .serviceTitle {
 	text-align: center;
+	font-size: xx-large;
 	border: 2px solid black;
 	border-radius: 6px;
 	padding: 15px;
@@ -15,8 +16,8 @@
 }
 
 .groomingTitle {
-	border: 2px solid black;
-	border-radius: 6px;
+	border-top: 2px solid black;
+	font-size: x-large;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
