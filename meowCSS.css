@@ -1,3 +1,14 @@
+/* CSS for better blog page */
+.blogTitle {
+	text-align: center;
+	font-size: xx-large;
+	border: 2px solid black;
+	border-radius: 6px;
+	padding: 15px;
+	background-color: #4397d0;
+	color: #ffffff;
+}
+
 .blogEntry {
 	border: 2px solid black;
 	padding: 15px;
@@ -18,6 +29,7 @@
 	border-radius: 5px;
 }
 
+/* CSS for the Pet Services Page */
 .serviceSection {
 	border: 2px solid black;
 	padding-left: 10px; padding-right: 10px;
@@ -43,21 +55,23 @@
 	padding-bottom: 5px;
 }
 
+/* Make grid look organized. */
 .ui-block-a {
 	text-align: center;
 	padding-right: 15px;
 }
-
 .ui-grid-a .ui-block-b {
 	border-left: 2px solid black;
 	padding-left: 15px;
 	text-align: center;
 }
 
+/* For map to fit in frame. */
 iframe {
 	width: 100%;
 }
 
+/* For responsive grid on small screens. */
 @media all and (max-width: 500px) {
 	.ui-grid-a .ui-block-a,
 	.ui-grid-a .ui-block-b {
@@ -69,16 +83,6 @@ iframe {
 		border-left: #000000;
 	}
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
