@@ -33,6 +33,9 @@
 	text-align: center;
 }
 
+iframe {
+	width: 100%;
+}
 
 @media all and (max-width: 500px) {
 	.ui-grid-a .ui-block-a,
@@ -59,7 +62,7 @@
 
 
 
-
+/* -----------------------Original CSS----------------------- */
 
 /* For main title on all pages */
 .ui-title {
